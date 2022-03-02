@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class superherofactorypattern {
+    public static void main(String[] args) {
+
+        superhero asuperhero = null;
+
+        superheroFactory asuperheroFactory = new superheroFactory();
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("choose your superhero Thor,Batman,Aquaman and CaptainAmerica) : ");
+
+        String superhero = input.nextLine();
+
+        asuperhero = asuperheroFactory.superheroFactory(superhero);
+
+        heroes(asuperhero);
+
+    }
+    public static void heroes(superhero asuperhero){
+        asuperhero.Weapon();
+        asuperhero.Universe();
+    }
+}

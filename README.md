@@ -7,7 +7,8 @@ By using Factory Method Pattern we are able to create a superhero Factory that g
 
 UML Diagram
 
-![image](https://user-images.githubusercontent.com/89548621/156471932-99208291-c0c4-40ef-933d-be93c20c4221.png)
+![image](https://user-images.githubusercontent.com/89548621/156472133-492efa91-61fd-4cf9-b5a1-c99b9153f2e9.png)
+
 
 
 
